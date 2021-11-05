@@ -1,0 +1,166 @@
+http://theneeds.pythonanywhere.com  
+
+ici j'ai pas recharger a temps et déplus j'ai fais une erreur sur l'email de confirmation de création du superuser pour pythonanywhere
+
+=============================================== -----------------------------------------------------
+dossier : MVT1.2
+projet : THENEEDS
+Objet1 : blog
+
+
+http://127.0.0.1:8000/admin/login/?next=/admin/
+username : Williantagain
+mdp : Tagerwill=11
+mails : williantagain@gmail.com
+
+
+
+
+import requests
+username = 'THENEEDS'
+token = 'ad1afdce558d182b8650990ea8e2bd8ecdafa2c3'
+
+response = requests.get(
+    'https://www.pythonanywhere.com/api/v0/user/{username}/cpu/'.format(
+        username=username
+    ),
+    headers={'Authorization': 'Token {token}'.format(token=token)}
+)
+if response.status_code == 200:
+    print('CPU quota info:')
+    print(response.content)
+else:
+    print('Got unexpected status code {}: {!r}'.format(response.status_code, response.content))
+                        
+
+
+
+SUPERB
+----------------------------------------
+
+devoir: savoir pourquoi l'autre email ci ne passe pas 
+http://127.0.0.1:8000/admin/login/?next=/admin/
+username :williantag07
+mdp : Tagerwill=11
+mails : williantag07@gmail.com
+
+=========================================
+
+
+
++
+===========================================================
+-----------------------------------------------------------
+DEPOT GIT:
+
+$ git init
+Initialized empty Git repository in ~/djangogirls/.git/
+
+ensuite tu créer un fichier appeller ".gitignore" dans le répertoire djangogirls et colle le code la (voir fin de ce fichier) a l'intérieur
+
+
+$ git config --global user.name "Your Name"             # ici cest Williantagain
+$ git config --global user.email  you@example.com        #ici cest williantagain@gmail.com
+$ git status                     #
+$ git add .                       #
+$ git commit -m "My Django Girls app, first commit"      #
+$ git remote add origin https://github.com/<your-github-username>/my-first-blog.git #
+$ git push -u origin master   #
+
+----------------------------------
+GITHUB: 
+
+https://github.com/
+http://127.0.0.1:8000/admin/login/?next=/admin/
+mails : williantagain@gmail.com
+mdp : Tagerwill=11
+username : Williantagain
+
+
+site : https://github.com/Williantagain/MVT1.git
+
+…or create a new repository on the command line
+echo "# MVT1" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Williantagain/MVT1.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/Williantagain/MVT1.git
+git branch -M main
+git push -u origin main
+
+
+
+
+importants:
+ quand tu met le mot de passe ça ne prend pas in faut juste suivre les instructions
+pour ma part jai pro un jetton de 7jours je crois
+
+jetons : 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  cest xa qui remplace le mot de passe sinon on ne pourra pas mettre le code en ligne
+
+----------------------------------------------
+=====================================
+
+
+
+
++ 
+
+============================
+------------------------
+https://www.pythonanywhere.com/registration/register/beginner/
+
+username : THENEEDS
+
+email : cubetechmaster@gmail.com
+
+mdp :@TechCube_2
+
+(theneeds.pythonanywhere.com) 16:41 ~/theneeds.pythonanywhere.com (master)$ python manage.py createsuperuser
+
+Username (leave blank to use 'theneeds'): 
+
+Email address: ubetechmaster@gmail.com #si sa ne donne pas enlevé le "c" de cube
+Password: @TechCube_2
+Password (again): 
+Superuser created successfully.
+(theneeds.pythonanywhere.com) 16:46 ~/theneeds.pythonanywhere.com (master)$ 
+
+   
+
+
+BAS a vérifier : avec un seul email on peut faire plusieurs sites tout ce qu'on a faire cest de changer l'username et le tour est jouer
+------------------------------------
+===================
+
+
+
+
+---------------------------------
+
+-------------------------------------------------------------------------
+
+
+--------------------
+voir : 
+https://github.blog/2020-12-15-token-authentication-requirements-for-git-operations/#what-you-need-to-do-today
+https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+j'ai pas lu le mail
+https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox/FMfcgzGlkZDrHPbvztgmsLHGqNlZHJGXß
+---------------------------
+
+https://stackoverflow.com/users/17289299/williantagain
+
+mails : williantagain@gmail.com
+mdp : Tagerwill=11
+username : Williantagain
+----------------------------------------
+https://openclassrooms.com/fr/dashboard/courses
+mails : williantagain@gmail.com
+mdp : Tagerwill=11
+username : Williantagain
